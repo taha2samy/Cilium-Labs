@@ -1,6 +1,9 @@
 apiVersion: v1
 kind: Pod
 metadata:
+  labels:
+    app: unauthorized
+    app.kubernetes.io/name: unauthorized-client
   name: unauthorized-client
 spec:
   containers:
