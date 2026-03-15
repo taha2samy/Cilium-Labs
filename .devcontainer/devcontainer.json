@@ -8,6 +8,9 @@
             "version": "latest",
             "enableNonRootDocker": true,
             "moby": true
+        },
+        "ghcr.io/devcontainers/features/common-utils:2": {
+            "username": "vscode"
         }
     },
     "customizations": {
